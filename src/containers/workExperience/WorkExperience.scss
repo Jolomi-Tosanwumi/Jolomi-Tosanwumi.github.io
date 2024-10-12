@@ -31,7 +31,8 @@
 
 @media (max-width: 768px) {
   .experience-heading {
-    font-size: 20px;
+    grid-template-columns: 1fr;
+    font-size: 30px;
     text-align: center;
   }
 }
