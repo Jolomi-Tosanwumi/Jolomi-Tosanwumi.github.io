@@ -1,6 +1,6 @@
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
 
@@ -29,9 +29,13 @@
   }
 }
 
+/* Media Query for mobile devices */
 @media (max-width: 768px) {
+  .experience-cards-div {
+    grid-template-columns: 1fr; /* Switch to 1 column on mobile */
+  }
+
   .experience-heading {
-    grid-template-columns: 1fr;
     font-size: 30px;
     text-align: center;
   }
