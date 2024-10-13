@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7aa44a0.css",
+    "main.css": "/static/css/main.7168048e.css",
     "main.js": "/static/js/main.968c8a62.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/power-bi-plain.svg": "/static/media/power-bi-plain.3ed907cca87773b18ba1.svg",
     "static/media/tableau-plain.svg": "/static/media/tableau-plain.fbfa8c35f8efd398a831.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.c7aa44a0.css.map": "/static/css/main.c7aa44a0.css.map",
+    "main.7168048e.css.map": "/static/css/main.7168048e.css.map",
     "main.968c8a62.js.map": "/static/js/main.968c8a62.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
@@ -29,7 +29,7 @@
     "769.1978db84.chunk.js.map": "/static/js/769.1978db84.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7aa44a0.css",
+    "static/css/main.7168048e.css",
     "static/js/main.968c8a62.js"
   ]
 }
