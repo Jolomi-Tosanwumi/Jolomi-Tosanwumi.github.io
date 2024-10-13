@@ -295,7 +295,7 @@ const bigProjects = {
   subtitle: "Some Organizations I am a Volunteer at / have Volunteered for",
   projects: [
     {
-      image: require("./assets/images/BGSA-logo.jpg"),
+      image: require("./assets/images/BGSA-logo.png"),
       projectName: "Black Graduate Students' Association (BGSA), University of Toronto",
       projectDesc: "President (Jul 2023 - Jul 2024)",
       footerLink: [
