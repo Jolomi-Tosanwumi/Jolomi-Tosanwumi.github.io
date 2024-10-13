@@ -384,19 +384,31 @@ const blogSection = {
   title: emoji("Blogs ✍🏾"),
   subtitle:
     "With Love for Data Science, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/towards-data-science/f-beta-score-in-keras-part-i-86ad190a252f",
+      title: "F-beta Score in Keras Part I",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Creating custom F1 score for binary classification problems in Keras"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/towards-data-science/f-beta-score-in-keras-part-ii-15f91f07c9a4",
+      title: "F-beta Score in Keras Part II",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Creating custom F1 score for multi classification problems in Keras"
+    },
+    {
+      url: "https://medium.com/towards-data-science/f-beta-score-in-keras-part-iii-28b1721fc442",
+      title: "F-beta Score in Keras Part III",
+      description:
+        "Creating custom F2 score for multi-label classification problems in Keras"
+    },
+    {
+      url: "https://medium.com/hamoye-blogs/using-vector-auto-regression-to-model-bitcoin-prices-6cae0327ac30",
+      title: "Using Vector Auto-Regression to Model Bitcoin Prices",
+      description:
+        "Applying multivariate time series forecasting on Bitcoin data using Python"
     }
   ],
   display: true // Set false to hide this section, defaults to true
