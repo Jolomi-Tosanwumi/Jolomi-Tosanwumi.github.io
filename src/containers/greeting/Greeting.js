@@ -43,7 +43,7 @@ export default function Greeting() {
                   <a
                     href="https://drive.google.com/file/d/1hYTmLs69PGepOsgF9An3L8512Efj_NQE/view?usp=sharing" target="_blank" rel="noopener noreferrer"
                     // download="Resume.pdf"
-                    // className="download-link-button"
+                    className="download-link-button"
                   >
                     <Button text="View my resume" />
                   </a>
