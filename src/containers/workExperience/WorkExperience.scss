@@ -37,8 +37,8 @@
   }
 }
 
-// @media screen and (max-width: 480px) and (min-width: 300px) {
-//   .experience-cards-div {
-//     grid-template-columns: 1fr; /* Switch to 1 column on mobile */
-//   }
-// }
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .experience-cards-div {
+    grid-template-columns: 1fr; /* Switch to 1 column on mobile */
+  }
+}
