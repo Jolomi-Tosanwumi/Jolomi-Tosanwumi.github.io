@@ -37,7 +37,7 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
+              <div id="button-resume-div" className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
@@ -45,7 +45,7 @@ export default function Greeting() {
                     // download="Resume.pdf"
                     // className="download-link-button"
                   >
-                    <Button id="resume" text="View my resume" />
+                    <Button text="View my resume" />
                   </a>
                 )}
               </div>
