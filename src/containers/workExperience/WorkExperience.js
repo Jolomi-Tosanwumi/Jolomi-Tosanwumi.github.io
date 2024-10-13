@@ -11,7 +11,7 @@ export default function WorkExperience() {
   if (workExperiences.display) {
     return (
       <div id="experience">
-        <Fade bottom duration={1000} distance="10px">
+        <Fade right duration={1000}>
           <div className="experience-container" id="workExperience">
             <div>
               <h1 className="experience-heading">Some Work Experience {emoji("👷🏾‍♂️")}</h1>
