@@ -50,14 +50,14 @@ function Header() {
               <a href="#button-resume-div">Resume</a>
             </li>
           )}
-        {viewEducation && (
-            <li>
-              <a href="#education">Education</a>
-            </li>
-          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
+            </li>
+          )}
+        {viewEducation && (
+            <li>
+              <a href="#education">Education</a>
             </li>
           )}
           {viewExperience && (
