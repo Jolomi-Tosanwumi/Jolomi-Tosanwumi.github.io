@@ -33,7 +33,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
-      <Fade right duration={1000}>
+      <Fade bottom duration={1000}>
         <div style={{background: rgb(colorArrays)}} className="experience-banner">
           <div className="experience-blurred_div"></div>
           <div className="experience-div-company">
