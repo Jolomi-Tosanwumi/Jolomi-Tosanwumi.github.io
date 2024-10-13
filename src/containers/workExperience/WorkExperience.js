@@ -11,32 +11,30 @@ export default function WorkExperience() {
   if (workExperiences.display) {
     return (
       <div id="experience">
-        /* <Fade right duration={1000}> */
-          <div className="experience-container" id="workExperience">
-            <div>
-              <h1 className="experience-heading">Some Work Experience {emoji("👷🏾‍♂️")}</h1>
-              <div className="experience-cards-div">
-                {workExperiences.experience.map((card, i) => {
-                  return (
-                    <ExperienceCard
-                      key={i}
-                      isDark={isDark}
-                      cardInfo={{
-                        company: card.company,
-                        companyURL: card.companyURL,
-                        desc: card.desc,
-                        date: card.date,
-                        companylogo: card.companylogo,
-                        role: card.role,
-                        descBullets: card.descBullets
-                      }}
-                    />
-                  );
-                })}
-              </div>
+        <div className="experience-container" id="workExperience">
+          <div>
+            <h1 className="experience-heading">Some Work Experience {emoji("👷🏾‍♂️")}</h1>
+            <div className="experience-cards-div">
+              {workExperiences.experience.map((card, i) => {
+                return (
+                  <ExperienceCard
+                    key={i}
+                    isDark={isDark}
+                    cardInfo={{
+                      company: card.company,
+                      companyURL: card.companyURL,
+                      desc: card.desc,
+                      date: card.date,
+                      companylogo: card.companylogo,
+                      role: card.role,
+                      descBullets: card.descBullets
+                    }}
+                  />
+                );
+              })}
             </div>
           </div>
-        /* </Fade> */
+        </div>
       </div>
     );
   }
