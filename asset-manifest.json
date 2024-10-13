@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.062ef114.css",
-    "main.js": "/static/js/main.3014ba8e.js",
+    "main.js": "/static/js/main.968c8a62.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.1978db84.chunk.js": "/static/js/769.1978db84.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/BGSA-logo.jpg": "/static/media/BGSA-logo.ea5723a520b893ba6833.jpg",
+    "static/media/BGSA-logo.png": "/static/media/BGSA-logo.86a3fb5c8b78c258f073.png",
     "static/media/Hamoye-logo.png": "/static/media/Hamoye-logo.694231cd8888c29e32cf.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -22,7 +22,7 @@
     "static/media/tableau-plain.svg": "/static/media/tableau-plain.fbfa8c35f8efd398a831.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.062ef114.css.map": "/static/css/main.062ef114.css.map",
-    "main.3014ba8e.js.map": "/static/js/main.3014ba8e.js.map",
+    "main.968c8a62.js.map": "/static/js/main.968c8a62.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.062ef114.css",
-    "static/js/main.3014ba8e.js"
+    "static/js/main.968c8a62.js"
   ]
 }
