@@ -78,11 +78,11 @@
 }
 
 
-// .experience-text-company a {
-//   color: inherit;
-//   font-weight: inherit;
-//   text-decoration: underline; /* Jolomi: set to none to remove underline if needed */
-// }
+.experience-text-company a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: underline; /* Jolomi: set to none to remove underline if needed */
+}
 
 .experience-roundedimg {
   position: absolute;
@@ -124,7 +124,7 @@
 }
 
 .experience-text-details {
-  padding: 1.5rem;
+  padding: 0.5rem;
   margin-top: 2rem;
 }
 
