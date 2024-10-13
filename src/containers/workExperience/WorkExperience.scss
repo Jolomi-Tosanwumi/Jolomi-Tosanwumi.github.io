@@ -31,12 +31,14 @@
 
 /* Media Query for mobile devices */
 @media (max-width: 768px) {
-  .experience-cards-div {
-    grid-template-columns: 1fr; /* Switch to 1 column on mobile */
-  }
-
   .experience-heading {
     font-size: 30px;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 300px) {
+  .experience-cards-div {
+    grid-template-columns: 1fr; /* Switch to 1 column on mobile */
   }
 }
