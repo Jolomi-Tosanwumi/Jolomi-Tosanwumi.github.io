@@ -27,6 +27,10 @@
 .subTitle {
   color: $subTitle;
 }
+.subTitle.skills-text{
+  font-size: 20px;
+  font-weight: 700;
+}
 
 /* Media Query */
 @media (max-width: 1380px) {

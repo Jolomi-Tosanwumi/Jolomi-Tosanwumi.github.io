@@ -4,6 +4,8 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import powerBi from "./assets/icons/power.svg"
+import tableau from "./assets/icons/tableau.svg"
 
 // Splash Screen
 
@@ -48,6 +50,8 @@ const socialMediaLinks = {
 
 // Skills Section
 
+const devicon_base_url = "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/";
+
 const skillsSection = {
   title: emoji(" Skills 🛠️"),
   subTitle: "I am Interested in Using AI to Solve Some of the World's Most Difficult Problems. I am proficient in the following:",
@@ -73,88 +77,87 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
+      skillPath: devicon_base_url + "python/python-original.svg"
     },
     {
       skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillPath: devicon_base_url + "azuresqldatabase/azuresqldatabase-original.svg"
     },
     {
       skillName: "R",
-      fontAwesomeClassname: "devicon-r-plain"
+      skillPath: devicon_base_url + "r/r-original.svg"
     },
     {
       skillName: "Tensorflow",
-      fontAwesomeClassname: "devicon-tensorflow-original"
+      skillPath: devicon_base_url + "tensorflow/tensorflow-original.svg"
     },
     {
       skillName: "Keras",
-      fontAwesomeClassname: "devicon-keras-plain"
+      skillPath: devicon_base_url + "keras/keras-original.svg"
     },
     {
       skillName: "Pytorch",
-      fontAwesomeClassname: "devicon-pytorch-original"
+      skillPath: devicon_base_url + "pytorch/pytorch-original.svg"
     },
-
     {
       skillName: "PySpark",
-      fontAwesomeClassname: "devicon-apachespark-original"
+      skillPath: devicon_base_url + "apachespark/apachespark-original.svg"
     },
     {
       skillName: "AWS",
-      fontAwesomeClassname: "fab fa-aws"
+      skillPath: devicon_base_url + "amazonwebservices/amazonwebservices-original-wordmark.svg"
     },
     {
       skillName: "GCP",
-      fontAwesomeClassname: "devicon-googlecloud-plain"
+      skillPath: devicon_base_url + "googlecloud/googlecloud-original.svg"
     },
     {
       skillName: "Power BI",
-      fontAwesomeClassname: "power-bi-plain"
+      skillPath: powerBi
     },
     {
       skillName: "Tableau",
-      fontAwesomeClassname: "tableau-plain"
+      skillPath: tableau
     },
     {
       skillName: "Numpy",
-      fontAwesomeClassname: "devicon-numpy-plain"
+      skillPath: devicon_base_url + "numpy/numpy-original.svg"
     },
     {
       skillName: "Pandas",
-      fontAwesomeClassname: "devicon-pandas-plain"
+      skillPath: devicon_base_url + "pandas/pandas-original.svg"
     },
     {
       skillName: "Matplotlib",
-      fontAwesomeClassname: "devicon-matplotlib-plain"
+      skillPath: devicon_base_url + "matplotlib/matplotlib-original.svg"
     },
     {
       skillName: "Scikitlearn",
-      fontAwesomeClassname: "devicon-scikitlearn-plain"
+      skillPath: devicon_base_url + "scikitlearn/scikitlearn-original.svg"
     },
     {
       skillName: "MATLAB",
-      fontAwesomeClassname: "devicon-matlab-plain"
+      skillPath: devicon_base_url + "matlab/matlab-original.svg"
     },
     {
       skillName: "git",
-      fontAwesomeClassname: "devicon-git-plain"
+      skillPath: devicon_base_url + "git/git-original.svg"
     },
     {
       skillName: "HTML",
-      fontAwesomeClassname: "devicon-html5-plain"
+      skillPath: devicon_base_url + "html5/html5-original.svg"
     },
     {
       skillName: "CSS",
-      fontAwesomeClassname: "devicon-css3-plain"
+      skillPath: devicon_base_url + "css3/css3-original.svg"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillPath: devicon_base_url + "javascript/javascript-original.svg"
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillPath: devicon_base_url + "docker/docker-original.svg"
     }
   ],
   display: true // Set false to hide this section, defaults to true

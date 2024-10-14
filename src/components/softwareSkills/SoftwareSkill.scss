@@ -8,42 +8,15 @@
   margin-top: 0px;
   text-align: center;
 }
-
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-
-.software-skill-inline > i {
-  color: $subTitle;
-}
-
-.software-skill-inline > i:hover {
-  color: $skillsColor;
-}
 .software-skill-inline > p {
   color: $subTitle;
-  font-size: 10px;
-}
-.software-skill-inline > i:hover ~ p {
-  color: $skillsColor;
+  font-size: 13px;
+  font-weight: 700;
 }
 
-.power-bi-plain {
-  background-color: currentColor; /* Inherit the parent color */
-  mask-image: url('../../assets/icons/power-bi-plain.svg');
-  mask-size: cover;  width: 50px; /* Adjust width */
-  height: 50px; /* Adjust height */
-  display: inline-block; /* Ensures it behaves like an inline element */
-}
-
-.tableau-plain {
-  background-color: currentColor; /* Inherit the parent color */
-  mask-image: url('../../assets/icons/tableau-plain.svg');
-  mask-size: cover;
-  width: 50px; /* Adjust width */
-  height: 50px; /* Adjust height */
-  display: inline-block; /* Ensures it behaves like an inline element */
-}
 
