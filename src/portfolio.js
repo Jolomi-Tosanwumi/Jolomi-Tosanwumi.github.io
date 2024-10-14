@@ -63,7 +63,7 @@ const skillsSection = {
       "⚡ Deep Learning"
     ),
     emoji(
-      "⚡ Data Analyses"
+      "⚡ Data Analytics"
     )
   ],
 
