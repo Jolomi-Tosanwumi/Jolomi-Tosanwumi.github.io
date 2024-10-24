@@ -175,7 +175,7 @@ const educationInfo = {
       duration: "January 2023 - December 2024",
       desc: "Research Area: Applied Machine Learning.",
       descBullets: [
-        <span>Tosanwumi J. et al (2024). <a href='https://tscluster.readthedocs.io/en/latest/' target="_blank" rel="noopener noreferrer"><i>tscluster</i></a>: A Python Package for the Optimal Temporal Clustering Framework. <i>(Manuscript recently accepted for publication)</i>.</span>,
+        <span>Tosanwumi J. et al (2024). <a href='https://tscluster.readthedocs.io/en/latest/' target="_blank" rel="noopener noreferrer"><i>tscluster</i></a>: A python package for the optimal temporal clustering framework. <i>Environment and Planning B: Urban Analytics and City Science, 0(0). <a href='https://doi.org/10.1177/23998083241293833' target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/23998083241293833</a>.</i></span>,
         <span>Tosanwumi J. et al (2024). Predictive Time Series Clustering with Granger Causality. <i>(Manuscript submitted for publication)</i>.</span>
       ]
     },
