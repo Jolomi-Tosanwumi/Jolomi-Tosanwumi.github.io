@@ -66,6 +66,7 @@ const skillsSection = {
     emoji(
       "⚡ Deep Learning"
     ),
+    emoji("⚡ LLM"),
     emoji(
       "⚡ Data Analytics"
     )
@@ -216,7 +217,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Research Assistant",
+      role: "Graduate Researcher, Data Science",
       company: "D3M Lab, UofT",
       companyURL: "https://d3m.mie.utoronto.ca/",
       companylogo: require("./assets/images/UofT-logo.png"),
@@ -249,7 +250,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Data Scientist",
+      role: "Data Scientist, ML",
       company: "QuickCheck",
       companyURL: "https://www.quickcheck.ng/",
       companylogo: require("./assets/images/QuickCheck-logo.png"),
@@ -270,7 +271,7 @@ const workExperiences = {
        ]
     },
     {
-      role: "Data Science Intern",
+      role: "Data Science/ML Intern",
       company: "Hamoye",
       companyURL: "https://www.hamoye.com/",
       companylogo: require("./assets/images/Hamoye-logo.png"),
